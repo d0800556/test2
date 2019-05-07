@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="電子信箱"
-            android:inputType="textPersonName"
+            android:inputType="textEmailAddress"
             android:textAlignment="center"
             android:textSize="24sp" />
 
