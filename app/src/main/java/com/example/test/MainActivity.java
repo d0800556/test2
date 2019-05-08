@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                             else
                             {
+                                loadingbar.hide();
                                 Toast.makeText(MainActivity.this, "請確認帳號密碼是否正確",
                                         Toast.LENGTH_LONG).show();
                             }

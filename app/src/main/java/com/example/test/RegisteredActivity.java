@@ -97,6 +97,8 @@ public class RegisteredActivity extends AppCompatActivity {
                             }
                             else
                             {
+
+                                loadingbar.hide();
                                 Toast.makeText(RegisteredActivity.this, "註冊失敗，請再試一次",
                                         Toast.LENGTH_LONG).show();
                             }
