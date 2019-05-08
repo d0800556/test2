@@ -63,17 +63,17 @@ public class RegisteredActivity extends AppCompatActivity {
     private void RegisterAccount(String name, String email, String password) {
         if(TextUtils.isEmpty(name))
         {
-            Toast.makeText(RegisteredActivity.this, "請輸入帳號",
+            Toast.makeText(RegisteredActivity.this, "請輸入名稱",
                                                                 Toast.LENGTH_LONG).show();
         }
 
-        if(TextUtils.isEmpty(email))
+        else if(TextUtils.isEmpty(email))
         {
             Toast.makeText(RegisteredActivity.this, "請輸入信箱",
                     Toast.LENGTH_LONG).show();
         }
 
-        if(TextUtils.isEmpty(password))
+        else if(TextUtils.isEmpty(password))
         {
             Toast.makeText(RegisteredActivity.this, "請輸入密碼",
                     Toast.LENGTH_LONG).show();

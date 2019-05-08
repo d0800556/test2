@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.LENGTH_LONG).show();
         }
 
-        if (TextUtils.isEmpty(password)) {
+        else if (TextUtils.isEmpty(password)) {
             Toast.makeText(MainActivity.this, "請輸入密碼",
                     Toast.LENGTH_LONG).show();
         }
